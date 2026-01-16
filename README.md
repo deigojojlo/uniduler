@@ -8,3 +8,8 @@ LOGIN=
 PASSWD=
 DBNAME=
 ```
+
+your table need to like this
+```
+CREATE TABLE $DBNAME (name TEXT, groups TEXT, summary TEXT, location TEXT, startDate TEXT, endDate TEXT, year TEXT, dayOfTheWeek TEXT,type TEXT, parcours TEXT);
+```
