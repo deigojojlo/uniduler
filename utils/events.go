@@ -188,6 +188,10 @@ func AddGroups(event *Event, target string){
 		event.Type = "CM"
 	} else if strings.Contains(upperName, "TD") {
 		event.Type = "TD"
+	}  else if strings.Contains(upperName, "EXAMEN") {
+		event.Type = "EXAMEN"
+	}  else if strings.Contains(upperName, "PARTIEL") {
+		event.Type = "PARTIEL"
 	} else {
 		event.Type = "Autre"
 	}

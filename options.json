@@ -1,0 +1,65 @@
+{
+    "E045" :
+        {
+            "name" : "Linguisitique",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Thursday"]]
+        },
+    "E055" :
+        {
+            "name" : "Cryptographie",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Monday"]]
+        },
+    "E065" :
+        {
+            "name" : "Introduction au Genie Logiciel",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Monday"],["Thursday"]]
+        },
+    "E085" :
+        {
+            "name" : "Programmation Efficace",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Tuesday"],["Friday"]]
+        },
+    "E095" :
+        {
+            "name" : "Programmation Web",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Monday"],["Wednesday"],["Friday"]]
+        },
+    "E105" :
+        {
+            "name" : "Securite Informatique",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Monday"],["Tuesday"],["Friday"]]
+        },
+    "E135" :
+        {
+            "name" : "Initiation au Langage Rust",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Tuesday"],["Wednesday"]]
+        },
+    "E145" :
+        {
+            "name" : "Introduction a la Calculabilite et a la Complexite",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Friday"]]
+        },
+    "E175" :
+        {
+            "name" : "Initiation a la Mediation Scientifique",
+            "year" : "L3",
+            "parcours": "info",
+            "choice" : [["Friday"]]
+        }
+}

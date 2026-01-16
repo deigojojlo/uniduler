@@ -1,0 +1,9 @@
+{
+    "MathInfo" :
+    {
+        "L3" : [
+            {"parcours" : "math", "year" : "L3", "groups" : "maths1", "name" : "Statistiques et simulations probabilistes"},
+            {"parcours" : "math", "year" : "L3", "groups" : "maths3", "name" : "Statistiques et simulations probabilistes"}
+        ]
+    }
+}
