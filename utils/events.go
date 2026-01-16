@@ -223,6 +223,9 @@ func AddYear(event *Event, target string){
 /* depend of the summary */
 func AddName(events *Event){
 	// remove all TD/TP/CM and number 
-	re := regexp.MustCompile(`\b[A-Z]{2}\d{2}\b`)
+	re := regexp.MustCompile(`(?i)(CM|TD|TP)\s?\d{0,2}|L[1-3]|Examen|-`)
 	events.Name = re.ReplaceAllString(events.Summary, "")
+	r2 := regexp.MustCompile(`\s+`)
+	events.Name = r2.ReplaceAllString(events.Name, " ")
+	events.Name = strings.TrimSpace(events.Name)
 }

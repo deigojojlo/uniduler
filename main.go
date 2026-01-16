@@ -40,10 +40,16 @@ func main() {
 		panic(err)
 	}
 	/* to update data */
-	//fetchData(conn)
+	fetchData(conn)
 
 	router := gin.Default()
-	router.GET("/uniduler",func(c *gin.Context) {api.GetEvents(c,conn)})
+	router.GET("/uniduler/formation",func(c *gin.Context) {api.GetFormation(c,conn)}) // no args
+	router.GET("/uniduler/year",func(c *gin.Context) {api.GetYear(c,conn)}) // formation args
+	router.GET("/uniduler/groups",func(c *gin.Context) {api.GetGroups(c,conn)}) // formation + year
+	router.GET("/uniduler/subject",func(c *gin.Context) {api.GetSubject(c,conn)}) // formation + year + groups
+	router.GET("/uniduler/events",func(c *gin.Context) {api.GetEvents(c,conn)}) // name(subject) + year + groups
+	
+
 
 	router.Run("localhost:8080")
 }
